@@ -1,5 +1,5 @@
 import logo from "./logoAlbaith.png"
-import organic_vegitable_image from './OrganicVeggies.png'
+import organic_vegitable_image from './organicVeggies.png'
 import search_icon from './search_icon.png'
 import nav_cart from "./nav_cart.png"
 import menu_icon from "./menu_cart.png"
@@ -117,4 +117,5 @@ export const features = [
         description: "Competitive prices on all products",
     },
 ]
+
 
