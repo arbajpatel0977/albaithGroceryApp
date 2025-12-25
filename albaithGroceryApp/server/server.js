@@ -22,7 +22,8 @@ await connectCloudinary();
 // Define allowed origins for CORS
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://albaith-grocery-app-mzu8.vercel.app'
+    'https://albaith-grocery-app-mzu8.vercel.app',
+    'https://albaith-grocery-app-ip8y-git-main-arbaj-patels-projects.vercel.app'
 ];
 
 app.post('/stripe', express.raw({ type: 'application/json' }), stripeWebhooks)
@@ -55,3 +56,4 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 
 });
+
