@@ -77,20 +77,20 @@ export const categories = [
         bgColor: "#FEF6DA"
     },
     {
-        text: "Organics veggies",
-        path: "Vegetables",
+        text: "Daily Favorites",
+        path: "favorites",
         image: organic_vegitable_image,
         bgColor: "#FEF6DA"
     },
     {
-        text: "Organics veggies",
-        path: "Vegetables",
+        text: "Frozen Foods",
+        path: "foods",
         image: organic_vegitable_image,
         bgColor: "#FEF6DA"
     },
     {
-        text: "Organics veggies",
-        path: "Vegetables",
+        text: "Bakery & Bread",
+        path: "bakery",
         image: organic_vegitable_image,
         bgColor: "#FEF6DA"
     },
@@ -117,3 +117,4 @@ export const features = [
         description: "Competitive prices on all products",
     },
 ]
+
