@@ -16,6 +16,18 @@ import product_list_icon from './product_list_icon.png'
 import order_icon from './order_icon.png'
 import upload_logo from './upload_icon.png'
 
+
+import grain from './grain.png'
+import freshfruit from './freshfruite.png'
+import instantfood from './instantfood.png'
+import colddrink from './colddrinks.png'
+import bakerybreads from './bakerybreads.png'
+import dairyproducts from './dairyproduct.png'
+
+import trustedheart from './trustedheart.png'
+import freshnessgruaranteed from './freshnessgrauntee.png'
+import affordableprice from './affordableprice.png'
+
 export const assets = {
     logo,
     search_icon,
@@ -76,22 +88,40 @@ export const categories = [
         image: organic_vegitable_image,
         bgColor: "#FEF6DA"
     },
-    {
-        text: "Daily Favorites",
-        path: "favorites",
-        image: organic_vegitable_image,
+  {
+        text: "Fresh Fruits",
+        path: "FreshFruits",
+        image: freshfruit,
         bgColor: "#FEF6DA"
     },
     {
-        text: "Frozen Foods",
-        path: "foods",
-        image: organic_vegitable_image,
+        text: "Cold Drinks",
+        path: "ColdDrinks",
+        image: colddrink,
         bgColor: "#FEF6DA"
     },
     {
-        text: "Bakery & Bread",
-        path: "bakery",
-        image: organic_vegitable_image,
+        text: "Instant Food:",
+        path: "InstantFood",
+        image: instantfood,
+        bgColor: "#FEF6DA"
+    },
+    {
+        text: "Dairy Products",
+        path: "Dairy",
+        image: dairyproducts,
+        bgColor: "#FEF6DA"
+    },
+    {
+        text: "Bakery & Breads",
+        path: "Bakery",
+        image: bakerybreads,
+        bgColor: "#FEF6DA"
+    },
+    {
+        text: "Grains & Cereals",
+        path: "Grains",
+        image: grain,
         bgColor: "#FEF6DA"
     },
 ]
@@ -103,19 +133,26 @@ export const features = [
         title: "Fastest & Free Delivery",
         description: "Free delivery on all orders in just 30 minutes",
     },
-    {
+   {
         // icon:leaf_icon,
-        icon: delivery_truck_icon,
+        icon: freshnessgruaranteed,
         title: "freshness guaranteed",
         description: "Fresh products delivered to your door",
 
     },
     {
         // icon:coin_icon,
-        icon: delivery_truck_icon,
-        title: "Best Price",
-        description: "Competitive prices on all products",
+        icon: affordableprice,
+        title: "Affordable Prices",
+        description: "Quality groceries at unbeatable prices.",
+    },
+       {
+        // icon:coin_icon,
+        icon: trustedheart,
+        title: "Trusted by Thousands",
+        description: "Loved by 10,000+ happy customers.",
     },
 ]
+
 
 
